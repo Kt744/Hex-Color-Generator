@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#btn {
+  height: 20vh;
+  width: 9.5vw;
+  border: none;
+  border-radius: 50%;
+  color: black;
+  font-size: 1rem;
+}
+/* 1 */
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  #btn {
+    height: 6vh;
+    width: 10vw;
+    font-size: 0.4rem;
+  }
+}
+/* 2 */
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  #btn {
+    height: 7vh;
+    width: 11vw;
+    font-size: 0.6rem;
+  }
+}
+/* 3 */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #btn {
+    height: 8vh;
+    width: 10vw;
+    font-size: 0.7rem;
+  }
+}
+/* 4 */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #btn {
+    height: 10vh;
+    width: 8vw;
+    font-size: 0.8rem;
+  }
+}
+/* 5 */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  #btn {
+    height: 20vh;
+    width: 9.5vw;
+    font-size: 1rem;
+  }
+}
